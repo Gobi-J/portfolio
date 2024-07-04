@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gobi J</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img src="./assets/images/Photo.jpg" alt="Gobi J" />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Gobi J">Gobi J</h1>
+
+            <p class="title">Full stack developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:gobij2003@gmail.com" class="contact-link"
+                  >gobij2003@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+916383576055" class="contact-link">6383576055</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-github"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <a href="https://github.com/Gobi-J/" target="_blank">
+                  <p class="contact-title">GitHub</p>
+                  <p class="linkedin">Gobi-J</p>
+                </a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <a href="https://www.linkedin.com/in/gobi-j/" target="_blank">
+                  <p class="contact-title">Linkedin</p>
+                  <p class="linkedin">gobi-j</p>
+                </a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="code-slash"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <a href="https://leetcode.com/gobij2003/" target="_blank">
+                  <p class="contact-title">Leetcode</p>
+                  <p class="linkedin">gobij2003</p>
+                </a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="code-slash"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <a
+                  href="https://auth.geeksforgeeks.org/user/gobijci0x"
+                  target="_blank"
+                >
+                  <p class="contact-title">Geeksforgeeks</p>
+                  <p class="linkedin">gobijci0x</p>
+                </a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="code-slash"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <a href="https://cssbattle.dev/player/gobi_j" target="_blank">
+                  <p class="contact-title">CSS Battle</p>
+                  <p class="linkedin">gobi_j</p>
+                </a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Salem, Tamil Nadu, India</address>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Qualifications</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p style="text-align: justify">
+              Hi there! I'm a Computer Science and Engineering graduate from
+              Knowledge Institute of Technology, Salem, with a proficiency in
+              creating web applications. I enjoy transforming complex problems
+              into simple, beautiful, and intuitive web applications.
+            </p>
+
+            <p style="text-align: justify">
+              My expertise includes building websites using the latest MERN
+              stack technology, ensuring they are both functional and
+              user-friendly while maintaining an attractive design. Moreover, I
+              am always eager to learn and adapt to new technologies and
+              frameworks, striving to stay up-to-date with the latest industry
+              trends.
+            </p>
+
+            <p style="text-align: justify">
+              I am open to exciting opportunities where I can contribute my
+              expertise and make a meaningful impact.
+            </p>
+            <a
+              href="https://drive.google.com/drive/folders/1zjl8jwDnSyyHiuTjNMOFwdcMbTaonID1?usp=sharing"
+              target="_blank"
+              ><button
+                style="
+                  border: 1px solid white;
+                  padding: 8px 30px;
+                  color: white;
+                  margin: 10px 0px;
+                "
+              >
+                Download Resume <i class="bi bi-download"></i></button
+            ></a>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">Skills</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="Programming"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Programming Language</h4>
+                  <p class="service-item-text">Java, Javascript, Python</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-db.svg"
+                    alt="database"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Database</h4>
+                  <p class="service-item-text">MySQL, MongoDB</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="frontend"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Frontend</h4>
+                  <p class="service-item-text">
+                    ReactJS, Redux, Javascript, jQuery, Tailwind CSS, Bootstrap,
+                    SCSS, CSS, HTML.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Backend"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Backend</h4>
+                  <p class="service-item-text">NodeJS, ExpressJS</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="achievements">
+            <h3 class="h3 achievements-title">Achievements</h3>
+
+            <ul class="achievements-list has-scrollbar">
+              <li class="achievements-item">
+                <a href="https://www.linkedin.com/in/gobi-j/" target="_blank">
+                  <div class="content-card" data-achievements-item>
+                    <figure class="achievements-avatar-box">
+                      <img
+                        src="./assets/images/icon-cert.svg"
+                        alt="achiever"
+                        width="60"
+                        data-achievements-avatar
+                        style="padding: 15px"
+                      />
+                    </figure>
+
+                    <h4
+                      class="h4 achievements-item-title"
+                      data-achievements-title
+                    >
+                      Student Achiever Awardee
+                    </h4>
+
+                    <div class="achievements-text" data-achievements-text>
+                      <p style="text-align: justify">
+                        Received the Student Achiever Award for two consecutive
+                        years at my college.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="achievements-item">
+                <a href="https://leetcode.com/gobij2003/" target="_blank">
+                  <div class="content-card" data-achievements-item>
+                    <figure class="achievements-avatar-box">
+                      <img
+                        src="./assets/images/icon-achievement.svg"
+                        alt="coding"
+                        width="60"
+                        data-achievements-avatar
+                        style="padding: 10px"
+                      />
+                    </figure>
+
+                    <h4
+                      class="h4 achievements-item-title"
+                      data-achievements-title
+                    >
+                      Solved 300+ DSA Problems
+                    </h4>
+
+                    <div class="achievements-text" data-achievements-text>
+                      <p style="text-align: justify">
+                        Successfully solved over 300 problems on Leetcode and
+                        GeeksforGeeks using Java.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="achievements-item">
+                <a
+                  href="https://www.hackerrank.com/profile/Gobi_23"
+                  target="_blank"
+                >
+                  <div class="content-card" data-achievements-item>
+                    <figure class="achievements-avatar-box">
+                      <img
+                        src="./assets/images/icon-star.svg"
+                        alt="Emily evans"
+                        width="60"
+                        data-achievements-avatar
+                        style="padding: 12px"
+                      />
+                    </figure>
+
+                    <h4
+                      class="h4 achievements-item-title"
+                      data-achievements-title
+                    >
+                      5Star @ Hackerrank
+                    </h4>
+
+                    <div class="achievements-text" data-achievements-text>
+                      <p style="text-align: justify">
+                        Achieved a 5-star rating on HackerRank for proficiently
+                        solving programs using Java.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="achievements-item">
+                <a href="https://cssbattle.dev/player/gobi_j" target="_blank">
+                  <div class="content-card" data-achievements-item>
+                    <figure class="achievements-avatar-box">
+                      <img
+                        src="./assets/images/icon-achievement.svg"
+                        alt="cssbattle"
+                        width="60"
+                        data-achievements-avatar
+                        style="padding: 15px"
+                      />
+                    </figure>
+
+                    <h4
+                      class="h4 achievements-item-title"
+                      data-achievements-title
+                    >
+                      CSS Battle
+                    </h4>
+
+                    <div class="achievements-text" data-achievements-text>
+                      <p style="text-align: justify">
+                        Recreated over 250 intricate designs on CSS Battle,
+                        showcasing attention to detail.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="achievements-item">
+                <a
+                  href="https://www.linkedin.com/posts/gobi-j_teamwork-ibmhackchallenge2023-machinelearning-activity-7100717935744204801-mYL5?utm_source=share&utm_medium=member_desktop"
+                  target="_blank"
+                >
+                  <div class="content-card" data-achievements-item>
+                    <figure class="achievements-avatar-box">
+                      <img
+                        src="./assets/images/icon-trophy.svg"
+                        alt="hackathon"
+                        width="60"
+                        data-achievements-avatar
+                        style="padding: 15px"
+                      />
+                    </figure>
+
+                    <h4
+                      class="h4 achievements-item-title"
+                      data-achievements-title
+                    >
+                      Hackathon Finalist
+                    </h4>
+
+                    <div class="achievements-text" data-achievements-text>
+                      <p style="text-align: justify">
+                        Our team advanced to the finals in the IBM Hack
+                        Challenge 2023.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="qualifications" data-page="qualifications">
+          <header>
+            <h2 class="h2 article-title">Qualifications</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  B.E Computer Science and Engineering
+                </h4>
+
+                <span>2020 — 2024</span>
+
+                <p class="timeline-text" style="text-align: justify">
+                  Graduated with a Bachelor's in in Computer Science and
+                  Engineering at Knowledge Institute of Technology, with
+                  aggregate <i style="color: gold">CGPA 8.276</i>
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">HSC</h4>
+
+                <span>2019 — 2020</span>
+
+                <p class="timeline-text" style="text-align: justify">
+                  Completed higher secondary education at AKV Matric. Hr. Sec.
+                  School in the computer stream, achieving a commendable
+                  <i style="color: gold">78%</i>
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">SSC</h4>
+
+                <span>2017 - 2018</span>
+
+                <p class="timeline-text" style="text-align: justify">
+                  Completed secondary education at AKV Matric. Hr. Sec. School
+                  with an impressive <i style="color: gold">95%</i>
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Web Developer Intern @ Open Weaver
+                </h4>
+
+                <span>Oct 2023 - Nov 2023</span>
+
+                <p class="timeline-text" style="text-align: justify">
+                  • Utilized HTML5, CSS3, and JavaScript in the development of
+                  “Cool Tech Gear Zone”, creating a user-centric platform with
+                  potential to boost gadget sales by 30-40%.
+                  <br /><br />
+                  • Led and coordinated a team of 4 interns ensuring
+                  collaborative and effective execution of the industry-ready
+                  project.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Fullstack Developer Intern @ IBM Skills Build
+                </h4>
+
+                <span>Sep 2022 - Oct 2022</span>
+
+                <p class="timeline-text" style="text-align: justify">
+                  • Developed a fully responsive MERN stack web app for
+                  restaurant owners and customers with key features, including
+                  food listing, ordering, wish listing, location tracking,
+                  secure payments, and order management. <br /><br />
+                  • Achieved 95% adherence to project timelines, ensuring timely
+                  delivery of each development phase. <br /><br />
+                  • Presented project progress to the technical team, receiving
+                  positive feedback and incorporating suggestions into the
+                  development process.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Skills</h3>
+
+            <div class="skill-type">
+              <h4 class="h4 skill-sub-title">Web Technologies</h4>
+              <ul class="skills-list content-card">
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=20909&format=png&color=000000"
+                    alt="HTML5"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=21278&format=png&color=000000"
+                    alt="CSS3"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=PndQWK6M1Hjo&format=png&color=000000"
+                    alt="Bootstrap"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=4PiNHtUJVbLs&format=png&color=000000"
+                    alt="Tailwind"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=QBqFNfPPB2Kx&format=png&color=000000"
+                    alt="SASS"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/color/48/javascript--v1.png"
+                    alt="JavaScript"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=55215&format=png&color=000000"
+                    alt="jQuery"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=123603&format=png&color=000000"
+                    alt="React"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=jD-fJzVguBmw&format=png&color=000000"
+                    alt="Redux"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=54087&format=png&color=000000"
+                    alt="NodeJS"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=kg46nzoJrmTR&format=png&color=000000"
+                    alt="Express.js"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=5mbMwDZ796xj&format=png&color=000000"
+                    alt="Flask"
+                  />
+                </li>
+              </ul>
+            </div>
+
+            <div class="skill-type">
+              <h4 class="h4 skill-sub-title">Database</h4>
+              <ul class="skills-list content-card">
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=bosfpvRzNOG8&format=png&color=000000"
+                    alt="MongoDB"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=UFXRpPFebwa2&format=png&color=000000"
+                    alt="MySQL"
+                  />
+                </li>
+              </ul>
+            </div>
+
+            <div class="skill-type">
+              <h4 class="h4 skill-sub-title">Programming</h4>
+              <ul class="skills-list content-card">
+                <li>
+                  <img
+                    src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png"
+                    alt="Java"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/fluency/48/python.png"
+                    alt="Python"
+                  />
+                </li>
+              </ul>
+            </div>
+
+            <div class="skill-type">
+              <h4 class="h4 skill-sub-title">Tools and IDE</h4>
+              <ul class="skills-list content-card">
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=dJjTWMogzFzg&format=png&color=000000"
+                    alt="Vite"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=24895&format=png&color=000000"
+                    alt="NPM"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=W0YEwBDDfTeu&format=png&color=000000"
+                    alt="Figma"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=9OGIyU8hrxW5&format=png&color=000000"
+                    alt="VS Code"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=pcHtLiSbkmzw&format=png&color=000000"
+                    alt="Eclipse"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=20906&format=png&color=000000"
+                    alt="Git"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=12599&format=png&color=000000"
+                    alt="GitHub"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://img.icons8.com/?size=48&id=iWw83PVcBpLw&format=png&color=000000"
+                    alt="Canva"
+                  />
+                </li>
+              </ul>
+            </div>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <h2 class="h2 article-title">Portfolio</h2>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Frontend</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Fullstack</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Frontend</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Fullstack</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="fullstack"
+              >
+                <a
+                  href="https://www.linkedin.com/posts/gobi-j_mern-webdevelopment-frontenddevelopment-activity-7208829297308893185-YoBh?utm_source=share&utm_medium=member_desktop"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/health-link.png"
+                      alt="health-link"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Health Link - Doctor Appointment Booking
+                  </h3>
+
+                  <p class="project-category">Full Stack</p>
+                  <p
+                    style="
+                      padding: 3px 10px;
+                      font-size: 13px;
+                      color: var(--orange-yellow-crayola);
+                    "
+                  >
+                    Stack : MongoDB, Express.js, React.js, Node.js, Stripe,
+                    Cloudinary, Tailwindcss
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="frontend"
+              >
+                <a
+                  href="https://gobi-j.github.io/clothing-store/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/kabi-shopping.png"
+                      alt="kabi-shopping"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Kabi Shopping - Clothing Store</h3>
+                  <p class="project-category">Frontend</p>
+                  <p
+                    style="
+                      padding: 3px 10px;
+                      font-size: 13px;
+                      color: var(--orange-yellow-crayola);
+                    "
+                  >
+                    Stack : React.js, Tailwindcss
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="frontend"
+              >
+                <a
+                  href="https://github.com/Gobi-J/green-tech"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/green-tech.png"
+                      alt="green-tech"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Green Tech - Renewable Products Store</h3>
+                  <p class="project-category">Frontend</p>
+                  <p
+                    style="
+                      padding: 3px 10px;
+                      font-size: 13px;
+                      color: var(--orange-yellow-crayola);
+                    "
+                  >
+                    Stack : React.js, Material UI
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="fullstack"
+              >
+                <a href="https://foodndfun.onrender.com/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/food-nd-fun.png"
+                      alt="foodndfun"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Food nd Fun - Food Delivery</h3>
+
+                  <p class="project-category">Full Stack</p>
+                  <p
+                    style="
+                      padding: 3px 10px;
+                      font-size: 13px;
+                      color: var(--orange-yellow-crayola);
+                    "
+                  >
+                    Stack : MongoDB, Express.js, React.js, Node.js, PayPal
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="frontend"
+              >
+                <a
+                  href="https://gobi-j.github.io/research-tool/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/query-quest.png"
+                      alt="query-quest"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Query Quest - Research Copilot</h3>
+                  <p class="project-category">Frontend</p>
+                  <p
+                    style="
+                      padding: 3px 10px;
+                      font-size: 13px;
+                      color: var(--orange-yellow-crayola);
+                    "
+                  >
+                    Stack : HTML, CSS, JavaScript, GyaniBooks API
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="frontend"
+              >
+                <a
+                  href="https://gobi-j.github.io/Freelance/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/hyre-here.png"
+                      alt="hyre-here"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Hyre Here - Freelancer's Job portal</h3>
+                  <p class="project-category">Frontend</p>
+                  <p
+                    style="
+                      padding: 3px 10px;
+                      font-size: 13px;
+                      color: var(--orange-yellow-crayola);
+                    "
+                  >
+                    Stack : HTML, CSS, JavaScript
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="fullstack"
+              >
+                <a href="#" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/fit-ai.png"
+                      alt="fit-ai"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Fit AI - Fitness Assistant</h3>
+
+                  <p class="project-category">Full Stack (Team Project)</p>
+                  <p
+                    style="
+                      padding: 3px 10px;
+                      font-size: 13px;
+                      color: var(--orange-yellow-crayola);
+                    "
+                  >
+                    Stack : MongoDB, React.js, Python, Flask, TensorFlow
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="frontend"
+              >
+                <a
+                  href="https://gobi-j.github.io/Tourism/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/tourism.png"
+                      alt="tourism"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Toursim - Travel Agency</h3>
+                  <p class="project-category">Frontend</p>
+                  <p
+                    style="
+                      padding: 3px 10px;
+                      font-size: 13px;
+                      color: var(--orange-yellow-crayola);
+                    "
+                  >
+                    Stack : HTML, SCSS, JavaScript
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="frontend"
+              >
+                <a
+                  href="https://gobi-j.github.io/photo-studio/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/projects/grandeur-gallery.png"
+                      alt="grandeur-gallery"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Grandeur Gallery - Photo Studio</h3>
+                  <p class="project-category">Frontend</p>
+                  <p
+                    style="
+                      padding: 3px 10px;
+                      font-size: 13px;
+                      color: var(--orange-yellow-crayola);
+                    "
+                  >
+                    Stack : HTML, CSS, JavaScript
+                  </p>
+                </a>
+              </li>
+
+            </ul>
+          </section>
+        </article>
+        
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <!-- <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src=""
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section> -->
+
+          <section class="contact-form">
+            <!-- <h3 class="h3 form-title">Contact Me</h3> -->
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" onclick="handleContact()" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

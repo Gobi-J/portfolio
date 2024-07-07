@@ -3,7 +3,6 @@
 \*-----------------------------------*/
 
 :root {
-
   --bg-gradient-onyx: linear-gradient(
     to bottom right,
     hsl(240, 1%, 25%) 3%,
@@ -343,10 +342,10 @@ main {
     object-fit: cover;
     aspect-ratio: 1;
     filter: grayscale(1);
-    transition: all .5s;
+    transition: all 0.5s;
 
-    &:hover{
-        filter: grayscale(0);
+    &:hover {
+      filter: grayscale(0);
     }
   }
 }
@@ -1142,17 +1141,16 @@ textarea.form-input::-webkit-resizer {
 /**
    * responsive larger than 450px screen
    */
-@media (max-width:580px){
-    
-    .avatar-box img{
-        width: 100px;
-    }
-    .sidebar{
-        max-height: 132px;
-    }
-    .sidebar.active {
-        max-height: 784px;
-      }
+@media (max-width: 580px) {
+  .avatar-box img {
+    width: 100px;
+  }
+  .sidebar {
+    max-height: 132px;
+  }
+  .sidebar.active {
+    max-height: 784px;
+  }
 }
 @media (min-width: 450px) {
   /**
@@ -1170,6 +1168,9 @@ textarea.form-input::-webkit-resizer {
   .project-img,
   .blog-banner-box {
     height: auto;
+  }
+  .sidebar {
+    max-height: 132px;
   }
 }
 
@@ -1238,7 +1239,7 @@ textarea.form-input::-webkit-resizer {
      */
 
   .sidebar {
-    max-height: 180px;
+    max-height: 200px;
     margin-bottom: 30px;
   }
 

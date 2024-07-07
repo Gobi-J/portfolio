@@ -1143,8 +1143,12 @@ textarea.form-input::-webkit-resizer {
    * responsive larger than 450px screen
    */
 @media (max-width:580px){
+    
     .avatar-box img{
         width: 100px;
+    }
+    .sidebar{
+        max-height: 132px;
     }
     .sidebar.active {
         max-height: 784px;
